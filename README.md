@@ -1,4 +1,8 @@
-# Recipeworld
+# :stew: Recipe Book Angular Application
+  * Project completed in 4 days.
+  * Viewers can can view the recipes.
+
+# Read Some Important points
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
@@ -25,11 +29,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-<hr>
 
-# RecipeBook
-  A book of recipes where user can view their recipes and can add items in their shopping list.
-  * Project completed in 4 days.
+## Functionalities
+
+  * A book of recipes where user can view their recipes and can add items in their shopping list.
+  * API used for fetching the recipes.
+  * Users can add ,delete or update the ingredients and quantity.
+  * Get details of the recipe .
+  
  ## Screenshots
  
   <img src="images/1.png" width="250" style="max-width:100%;"> <img src="images/2.png" width="250px" style="max-width:100%;"> 
