@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  h1,p{
+      color:black;
+      font-family: 'Pacifico', cursive;
+  }
+  
+  
+  h1{
+      font-weight: bolder;
+      font-size: 60px;
+      
+  }
+  p{
+      font-weight: bolder;
+      font-size: 30px;
+  }

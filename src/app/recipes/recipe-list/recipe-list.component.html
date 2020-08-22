@@ -1,0 +1,87 @@
+
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="recipeList col-lg-8">
+      <a *ngFor = "let rec of recipe"
+      style="cursor: pointer;"
+      class="list-group-item clearfix" (click)='onSelected(rec)' >
+      
+          <div class="pull-left">
+              <h4 class="list-group-item-heading">{{rec.name}}</h4> 
+          </div>
+          <span class="pull-right">
+              <!-- <img src="{{recipe.image}}" -->
+              <img
+              src="{{rec.imageURL}}"
+               alt="{{rec.name}}"
+                class="img-responsive"
+                 style="height: 60px;" >
+          </span>
+      </a>
+      </div>
+     
+      <div class="col-lg-4" *ngIf="flag">
+        <!-- <div class ="viewRecipe"> -->
+            <!-- <h1>hello world</h1> -->
+            <hr>
+            <div class="view">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="{{viewRecipes.imageURL}}" style="max-width:300px;"/>
+                </div>
+                
+                  <div class="col-lg-12">
+                    <h1>{{viewRecipes.name}}</h1>
+                    <table>
+                      <tr>
+                        <th><h2>Ingredients </h2></th>
+                        <th><h2>Quantity</h2></th>
+                        <th><h2>Type</h2></th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="pull-let" *ngFor = "let another_rec of viewRecipes.ingredients">
+                            <p class="list-group-item-text">{{another_rec.name}}</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="pull-let" *ngFor = "let another_rec of viewRecipes.ingredients">
+                            <p class="list-group-item-text">{{another_rec.quantity}}</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="pull-let" *ngFor = "let another_rec of viewRecipes.ingredients">
+                            <p class="list-group-item-text">{{another_rec.type}}</p>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                    <h2>Cooking Instructions</h2>
+                      <div class="pull-let">
+                        <p class="list-group-item-text">{{viewRecipes.steps}}</p>
+                   </div>
+                   <h2>Cooking Video</h2>
+                      <div class="pull-let">
+                       <a href="{{viewRecipes.originalURL}}">{{viewRecipes.originalURL}}</a> 
+                   </div>
+                  <hr>
+                </div>
+            
+                  
+                
+               
+            </div>
+             </div>
+         </div>
+         
+  </div>
+  
+
+</div>
+
+
+
+
+<!-- </div>  -->
+<!-- </div> -->

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1,h4,h2,p{
+    font-family: 'Pacifico', cursive;
+}
+a:hover{
+    border:1px solid grey;  
+    box-shadow:15px  grey;
+   }
+
+    table {
+ border-collapse: separate; 
+ float:center;
+     border-spacing: 20px 0; 
+     
+  }
+  
+  td {
+    padding: 10px 0;
+   
+  }
+
+  img{
+    border-spacing: 20px 0; 
+    /* float: inline-end; */
+    
+  }
+  
+  h1{
+    /* float: right; */
+    padding: 10px;
+    
+  }
+  /* p{
+      float: inline-end;
+  } */
+
+
+
+
+  
