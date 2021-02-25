@@ -7,9 +7,10 @@ import {RecipeListComponent} from './recipes/recipe-list/recipe-list.component';
 
 
 const routes: Routes =[
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path :'recipes',component:RecipesComponent,children:[
-    { path:'recipe-list', component:RecipeListComponent}
+  { path:'recipe-list', component:RecipeListComponent}
     
   ]},
   {path: 'shopping-list', component: ShoppingListComponent}

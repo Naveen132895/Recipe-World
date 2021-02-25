@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "recipeworld"
+  "defaultProject": "recipeworld",
+  "cli": {
+    "analytics": false
+  }
 }
